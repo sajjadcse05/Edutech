@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional HTML Showcase</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>HTML Tags Showcase</h1>
+        <p>Explore the most commonly used HTML tags with a beautiful modern design.</p>
+
+        <nav>
+            <a href="#text">Text</a>
+            <a href="#lists">Lists</a>
+            <a href="#table">Table</a>
+            <a href="#form">Form</a>
+            <a href="#media">Media</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- Headings -->
+        <section class="card" id="text">
+            <h2>Heading Tags</h2>
+
+            <h1>Main Heading</h1>
+            <h2>Sub Heading</h2>
+            <h3>Section Heading</h3>
+            <h4>H4 Heading</h4>
+            <h5>H5 Heading</h5>
+            <h6>H6 Heading</h6>
+
+            <hr>
+
+            <h2>Text Formatting</h2>
+
+            <p>
+                This is a <b>Bold</b>,
+                <strong>Strong</strong>,
+                <i>Italic</i>,
+                <em>Emphasized</em>,
+                <u>Underline</u>,
+                <mark>Highlighted</mark>,
+                <small>Small Text</small>,
+                <del>Deleted</del>,
+                <ins>Inserted</ins>,
+                H<sub>2</sub>O,
+                X<sup>2</sup>
+            </p>
+
+            <a href="https://www.google.com" target="_blank" class="btn">
+                Visit Google
+            </a>
+        </section>
+
+        <!-- Image -->
+        <section class="card">
+            <h2>Image Tag</h2>
+
+            <img src="https://picsum.photos/800/400"
+                alt="Random Image">
+        </section>
+
+        <!-- Lists -->
+        <section class="card" id="lists">
+
+            <h2>HTML Lists</h2>
+
+            <div class="grid">
+
+                <div>
+
+                    <h3>Ordered List</h3>
+
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ol>
+
+                </div>
+
+                <div>
+
+                    <h3>Unordered List</h3>
+
+                    <ul>
+                        <li>Apple</li>
+                        <li>Mango</li>
+                        <li>Orange</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Table -->
+        <section class="card" id="table">
+
+            <h2>Student Information</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>CGPA</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Sajjad</td>
+                        <td>CSE</td>
+                        <td>3.85</td>
+                    </tr>
+
+                    <tr>
+                        <td>Rahim</td>
+                        <td>EEE</td>
+                        <td>3.70</td>
+                    </tr>
+
+                    <tr>
+                        <td>Karim</td>
+                        <td>BBA</td>
+                        <td>3.90</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- Form -->
+        <section class="card" id="form">
+
+            <h2>Registration Form</h2>
+
+            <form>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter email">
+
+                <label>Password</label>
+                <input type="password" placeholder="Password">
+
+                <label>Gender</label>
+
+                <div class="inline">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                </div>
+
+                <label>Skills</label>
+
+                <div class="inline">
+                    <label><input type="checkbox"> HTML</label>
+                    <label><input type="checkbox"> CSS</label>
+                    <label><input type="checkbox"> JavaScript</label>
+                </div>
+
+                <label>Country</label>
+
+                <select>
+                    <option>Bangladesh</option>
+                    <option>USA</option>
+                    <option>Canada</option>
+                </select>
+
+                <label>Message</label>
+
+                <textarea rows="5" placeholder="Write something..."></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+
+        <!-- Semantic Elements -->
+        <section class="card">
+
+            <h2>Semantic HTML</h2>
+
+            <article>
+                <h3>Article</h3>
+                <p>
+                    This article demonstrates semantic HTML tags used for structuring web pages.
+                </p>
+            </article>
+
+            <aside>
+                <h3>Aside</h3>
+                <p>
+                    Sidebar information or advertisements can be placed here.
+                </p>
+            </aside>
+
+        </section>
+
+        <!-- Media -->
+        <section class="card" id="media">
+
+            <h2>Audio & Video</h2>
+
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+            </audio>
+
+            <br><br>
+
+            <video controls width="100%">
+                <source src="sample.mp4" type="video/mp4">
+            </video>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h3>HTML Learning Project</h3>
+
+        <p>
+            Created using HTML5 & CSS3 | © 2026 All Rights Reserved
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.card{
+    border: none;
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(85,107,47,0.25);
+}
+
+.text-success{
+    color: #556B2F !important;
+}
+
+.btn-success{
+    background-color: #6B8E23;
+    border: none;
+}
+
+.btn-success:hover{
+    background-color: #556B2F;
+}

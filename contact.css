@@ -1,0 +1,79 @@
+body{
+
+    background:#f8f9fa;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* Olive Theme */
+
+.olive-bg{
+
+    background:#556B2F;
+
+}
+
+.hero{
+
+    background:linear-gradient(135deg,#6B8E23,#556B2F);
+    color:white;
+    padding:70px 20px;
+
+}
+
+.card{
+
+    border:none;
+    border-radius:12px;
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(85,107,47,.25);
+
+}
+
+.icon{
+
+    color:#6B8E23;
+    margin-right:10px;
+
+}
+
+.social{
+
+    color:#6B8E23;
+    transition:.3s;
+
+}
+
+.social:hover{
+
+    color:#556B2F;
+    transform:scale(1.2);
+
+}
+
+.olive-btn{
+
+    background:#6B8E23;
+    color:white;
+    border:none;
+
+}
+
+.olive-btn:hover{
+
+    background:#556B2F;
+    color:white;
+
+}
+
+footer{
+
+    margin-top:50px;
+
+}
